@@ -1,4 +1,8 @@
-¿Puede ver el archivo tp2_1_2.cpp?
-No
-¿Por que?
-Porque el branch actual es el master y tp2_1_2.cpp fue creado en el branch Opcion_2
+#¿Puede ver el archivo tp2_1_2.cpp?
+-No
+#¿Por que?
+-Porque el branch actual es el master y tp2_1_2.cpp fue creado en el branch Opcion_2
+#Cambie al Branch master y vuelva a ejecutar el comando gitk –all ¿Qué diferencias
+nota?
+-La diferencia esta en el tipo de branch, en este caso como se encuentra en el branch master
+muestra el historial de dicho branch
