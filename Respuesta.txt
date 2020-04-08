@@ -6,3 +6,5 @@
 nota?
 -La diferencia esta en el tipo de branch, en este caso como se encuentra en el branch master
 muestra el historial de dicho branch
+#Luego utilice el comando gitk –all para ver los cambios, ¿Qué nota? 
+Los archivos en el branch Opcion_2 ahora se combinaron con el branch master
