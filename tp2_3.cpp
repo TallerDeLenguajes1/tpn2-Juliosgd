@@ -7,7 +7,8 @@ int main(){
     int i,j,pares;
     int C=rand()%(15-5+1)+5;
     int mt[F][C];
-    int v[F];
+    //vector dinamico
+    int *v=(int*)malloc(sizeof(int)*F);
 
     //cargando matriz
     for(i=0;i<F;i++){
@@ -18,9 +19,10 @@ int main(){
                 pares++;
             }
         }
-        //generando vector dinamico
-        v[i]=pares;
+
+        *(v+i)=pares;
     }
+    free(v);
     
     //mostrando matriz
    for(i=0;i<F;i++){
@@ -30,5 +32,6 @@ int main(){
        printf("\n");
    }
 
+    
     return 0;
 }
